@@ -157,7 +157,7 @@ class TeacherView extends Component {
               <option value={this.nine()}>9</option>
             </select>
             <select className="my-select" onChange={this.handleOperatorChange}>
-              <option value="plus">+</option>
+              <option value="plus" selected>+</option>
               <option value="minus">-</option>
               <option value="times">*</option>
               <option value="divided_by">/</option>
